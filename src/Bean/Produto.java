@@ -1,21 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Bean;
 
-/**
- *
- * @author Lucas
- */
 public class Produto {
 
     private String nome;
-    private int cod;
+    private int cod;        // Atributos relacionados á um Produto
     private int quantidade;
     private float preco;
-
+    
+    // Encapsulamento
+    
     /**
      * @return the nome
      */
